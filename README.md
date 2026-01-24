@@ -1,50 +1,56 @@
-CodeAlpha Task 2 – Unemployment Analysis with Python
+CodeAlpha Task 1 – Iris Flower Classification
 
-This project is completed as Task 2 of the CodeAlpha Data Science Internship. The objective is to analyze the unemployment rate using Python, focusing on the impact of various factors like the COVID-19 pandemic across different regions.
+This project is completed as Task 1 of the CodeAlpha Data Science Internship. The objective of this project is to build a machine learning classification model that predicts the species of an Iris flower based on its measurements.
 
 📊 Project Overview
 
-The Unemployment Analysis project uses a dataset that represents the unemployment percentage in India. It includes key metrics such as:
-Region: The state or area being analyzed.
-Date: The timeline of the data collection.
-Estimated Unemployment Rate (%): The percentage of the labor force that is unemployed.
-Estimated Employed: The number of people currently working.
-Estimated Labour Participation Rate (%): The percentage of the population active in the labor market.
+The Iris Flower Classification project uses the famous Iris dataset, which contains measurements of iris flowers:
+Sepal Length
+Sepal Width
+Petal Length
+Petal Width
+Based on these features, the model classifies the flower into one of the following species:
+Iris Setosa
+Iris Versicolor
+Iris Virginica
 
-🧠 Data Science Concepts Used
+🧠 Machine Learning Concepts Used
 
-Data Cleaning: Handling missing values and formatting column names.
-Exploratory Data Analysis (EDA): Analyzing trends over time.
-Data Visualization: Creating charts to identify seasonal patterns.
-Insight Generation: Understanding the socio-economic impact of unemployment.
+Data Loading and Exploration
+Data Preprocessing
+Train-Test Split
+Classification Model Training
+Model Evaluation (Accuracy Score)
 🛠️ Technologies & Libraries Used
 Python
 NumPy
 Pandas
-Matplotlib / Seaborn (for static visualizations)
-Plotly (for interactive dashboards, if used)
+Scikit-learn
+Matplotlib / Seaborn (for visualization, if used)
 
 📂 Dataset
 
-The dataset used in this project contains unemployment records from different states in India, focusing on the fluctuations observed during the COVID-19 period.
-🔗 Steps Performed
-Imported necessary libraries for data manipulation and plotting.
-Loaded the Unemployment dataset into a Pandas DataFrame.
-Preprocessed the data by cleaning column names and fixing date formats.
-Performed Exploratory Data Analysis to find the average unemployment rate by region.
-Created Visualizations (Bar charts, Heatmaps, and Time-series plots) to show trends.
-Analyzed the impact of COVID-19 on employment spikes.
+The dataset used in this project is the Iris Flower Dataset, which is publicly available and also directly accessible using Scikit-learn.
+🚀 Steps Performed
+Imported necessary libraries
+Loaded the Iris dataset
+Split the data into training and testing sets
+Trained a machine learning classification model
+Evaluated the model using accuracy score
+Predicted flower species based on input features
 
-📈 Result
+✅ Model Evaluation
 
-The analysis successfully identifies the regions most affected by unemployment and provides a clear visual representation of how the unemployment rate fluctuated over time, especially during the pandemic lockdowns.
+The model performance was evaluated using test data, and accuracy was calculated to measure how well the model classifies Iris flower species.
 
+📌 Result
+
+The trained model successfully classifies Iris flowers into their respective species with good accuracy, demonstrating basic classification concepts in machine learning.
 🎓 Internship Information
-
 Internship Program: CodeAlpha
 Domain: Data Science
-Task: Task 2 – Unemployment Analysis with Python
+Task: Task 1 – Iris Flower Classification
 
-🙌 Acknowledgement
+🥳 Acknowledgement
 
-Thanks to CodeAlpha for providing this opportunity to work on a real-world data science project and improve my analytical and visualization skills.
+Thanks to CodeAlpha for providing this opportunity to work on a hands-on data science project and improve practical machine learning skills.
